@@ -61,3 +61,8 @@ let cart: object;
 cart = {
   key: 'item'
 }
+
+// type inference
+let message2 = 'mensagem definida'
+// message2 = 2; da erro, pois o typescript define a variavel sendo do tipo string
+message2 = 'Outra mensagem'; // OK
