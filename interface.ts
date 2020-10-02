@@ -39,3 +39,12 @@ class CreateGame implements Game {
     this.genre = g;
   }
 }
+
+
+/*
+  Quando usar Types e quando usar Interface ?
+  Na maioria da vezes, precisamos apenas dos Types.
+  Usamos Interface quando precisamos extender alguma coisa.
+
+  Mas o mais importante é consistência!!
+*/
